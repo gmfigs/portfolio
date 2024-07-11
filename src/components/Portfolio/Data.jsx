@@ -13,18 +13,18 @@ export const projectsData = [
     category: "web",
   },
   {
+    id: 5,
+    image: Work5,
+    url: "/siscog",
+    title: "Work at SISCOG SA",
+    category: "web",
+  },
+  {
     id: 2,
     image: Work2,
     url: "/mrGeek",
     title: "Mr.Geek - UX/UI Design",
     category: "app",
-  },
-  {
-    id: 5,
-    image: Work5,
-    url: "/siscog",
-    title: "SISCOG SA work",
-    category: "web",
   },
   {
     id: 4,

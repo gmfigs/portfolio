@@ -134,6 +134,10 @@ img {
   text-align: center;
 }
 
+.skills__content {
+  padding: 2rem 2rem;
+}
+
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;

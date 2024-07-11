@@ -9,6 +9,7 @@ import Wireframe2 from "../../assets/wireframe-2.png";
 import styleguide1 from "../../assets/styleguide1.png";
 import styleguide2 from "../../assets/styleguide2.png";
 import mockupcollection from "../../assets/mockup-collection.png";
+import technologies from "../../assets/technologies.png";
 import mockup from "../../assets/mockup.gif";
 import mockup2 from "../../assets/mockup2.gif";
 import ImgLoad from '../imgLoad/ImgLoad';
@@ -27,8 +28,8 @@ const HoyBank = () => {
                 <div><strong>Year: </strong>2023</div>
                 <div className="portfolio-detail-right"><strong>Role:</strong> Frontend Developer</div>
             </div>
-        </div>
-        <div className="portfolio-section">
+        </div> 
+        <div className="portfolio-section" id="challenge">
             <div className="divider-container w-container">
                 <h2 className="portfolio-title">The Challenge</h2>
                 <p className="portfolio-description">Build, Design and Deploy a conceptual responsive website for an Online Digital Bank. 
@@ -312,7 +313,7 @@ const HoyBank = () => {
             </div>
         </div>
 
-        <div className="portfolio-section">
+        <div className="portfolio-section" id="styleguide">
             <div className="divider-container w-container">  
                 <h2 className="portfolio-title">Style guide</h2>
                 <p className="portfolio-description">I was mindful to chose colors that would work well with a dark theme - A dark blue background can convey a sense of reliability and stability, while a lighter shade of blue can be used for buttons and other interactive elements.</p>
@@ -339,6 +340,17 @@ const HoyBank = () => {
 
         <div className="portfolio-section">
             <div className="divider-container w-container">  
+                <h2 className="portfolio-title">Technologies used</h2>
+                <p className="portfolio-description">This were the <strong>main technologies I used for the implementation</strong> of the project: </p>
+                
+                 <ImgLoad value="1.75" className="technologies_img" id="L~Lg|h~qaeE1j[j[f6fkjZj[j[ay" src={technologies}/>
+                
+                
+            </div>
+        </div>
+
+        <div className="portfolio-section">
+            <div className="divider-container w-container">  
                 <h2 className="portfolio-title">Dynamic Mockups</h2>
                 <p className="portfolio-description">This is an immersive preview of the project, featuring visuals that demonstrate the functionality of the website's features.</p>
                 <p className="portfolio-description"><strong>To delve deeper into the project, explore the website firsthand:</strong> <a href="https://hoy-bank.netlify.app/">https://hoy-bank.netlify.app</a></p>
@@ -352,12 +364,14 @@ const HoyBank = () => {
         <div className="portfolio-section">
             <div className="divider-container w-container">
                 <h4 className="portfolio-tag color-grey">Part 4</h4>    
-                <h2 className="portfolio-title">Last words</h2>
-                <p className="portfolio-description">While carrying out this exercise I had to make assumptions and trade-offs in order to make progress and stick to the timeline. Here are a few of the constraints and trade-offs that I considered:</p>
+                <h2 className="portfolio-title">Next Steps</h2>
+                <p className="portfolio-description">Next steps should include additional user research and usability testing, expanding the landing page to a full functional platform and go beyond the MVP.</p>
                 <ol className="portfolio-list" role="list">
-                    <li>Usability testing: I did not have time to carry out user testing in this exercise. Ideally, I have liked to incorporate feedback from users on the designs through usability testing at various stages of the design process.</li>
-                    <li>The design is only meant to demonstrate an idea, to show how a trip planning app could be designed and integrated into a travel booking app</li>
-                    <li>The planning feature has not been designed in its entirety, therefore Daria can only carry out the first few steps of planning a trip: discovering an area and browsing accommodations</li>
+                    <li><strong>Design the full platform website</strong>, including navbar tasks such as Features, Product and Clients.</li>
+                    <li><strong>Usability testing</strong> of the smartphone version with posible real users of online digital banks.</li>
+                    <li>Conduct <strong>user interviews or surveys</strong> to develop analysis reports that are tailored to digital bank users.</li>
+                    <li>A more <strong>in depth analysis</strong> of existing digital bank options currently on the market.</li>
+                    <li>Explore <strong>more user personas</strong> and try to build a <strong>smartphone dedicated app</strong>. That the users can use safely and easily.</li>    
                 </ol>
             </div>
         </div>

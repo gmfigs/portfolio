@@ -6,10 +6,10 @@ const WorkItems = ({ item }) => {
       <img src={item.image} alt="" className="work__img" />
       <div className="work-align-content">
         <h3 className="work__title">{item.title}</h3>
-        {item.title === "SISCOG SA work" && <i className="uil uil-trademark"></i>}
+        {item.title === "Work at SISCOG SA" && <i className="uil ml-less uil-trademark"></i>}
       </div>
       <a href={item.url} className="work__button">
-        Demo
+        View Project
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
     </div>

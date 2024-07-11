@@ -14,6 +14,7 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Header from './components/header/Header';
 import HoyBank from './components/hoyBank/HoyBank';
+import Siscog from './components/siscog/Siscog';
 
 const App = () => {
   const currentPath = window.location.pathname;
@@ -29,10 +30,7 @@ const App = () => {
         {isWorkProjectsPage ? (
           <>
           {currentPath === '/hoyBank' && <HoyBank />}
-          {/* {currentPath === '/mrGeek' && <MrGeek />}
-          {currentPath === '/brainUp' && <BrainUp />}
-          {currentPath === '/branding' && <Branding />}
-          {currentPath === '/siscog' && <Siscog />} */}
+          {currentPath === '/siscog' && <Siscog />}
           </>
         ) : (
           <>
@@ -46,7 +44,7 @@ const App = () => {
             <Contact />
           </>
         )}
-        <Footer />
+        <Footer currentPath={currentPath}/>
         <ScrollUp />
       </main>
     </BrowserRouter>

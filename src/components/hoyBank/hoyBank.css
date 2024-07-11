@@ -188,6 +188,11 @@
     margin-top: 1rem;
 }
 
+.technologies_img {
+    max-width: 400px;
+    margin-top: 2rem;
+}
+
 .hoyBank__color {
     color: #22243b;
 }
@@ -265,6 +270,10 @@
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .technologies_img {
+        max-width: 300px;
     }
 
     .grid-user-persona {
