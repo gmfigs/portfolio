@@ -82,28 +82,28 @@ const Footer = ({ currentPath }) => {
         {renderFooterContent()}
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.linkedin.com/in/goncalomf26/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="bx bxl-facebook"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.behance.net/goncalo_mf"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-behance"></i>
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://github.com/gmfigs/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="bx bxl-twitter"></i>
+            <i className="bx bxl-github"></i>
           </a>
         </div>
         <span className="footer__copy">&#169; GFigueiredo. All rights reserved</span>

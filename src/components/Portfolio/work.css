@@ -1,6 +1,6 @@
 .work__container {
   gap: 3rem;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(2, max-content);
   justify-content: center;
 }
 
@@ -85,6 +85,13 @@
 }
 
 /*==================== MEDIA QUERIES ====================*/
+/* For extra large devices */
+@media screen and (min-width: 1200px) {
+  .work__container {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
 /* For large devices */
 @media screen and (max-width: 992px) {
   .work__container {

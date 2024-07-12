@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/siscog.png";
+import Work6 from "../../assets/portfolio-template.png";
 
 export const projectsData = [
   {
@@ -13,32 +14,32 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 5,
+    id: 2,
     image: Work5,
     url: "/siscog",
     title: "Work at SISCOG SA",
     category: "web",
   },
   {
-    id: 2,
+    id: 3,
     image: Work2,
-    url: "/mrGeek",
+    url: "https://www.behance.net/gallery/162348689/Mr-Geek-UX-UI-Design-Adobe-xd",
     title: "Mr.Geek - UX/UI Design",
     category: "app",
   },
   {
     id: 4,
     image: Work4,
-    url: "/brainUp",
+    url: "https://www.behance.net/gallery/199142247/Brainup-Gamification-in-Education-Figma",
     title: "BrainUp - UX/UI Project",
     category: "app",
   },
   {
-    id: 3,
-    image: Work3,
+    id: 5,
+    image: Work6,
     url: "/branding",
-    title: "Branding Design",
-    category: "design",
+    title: "Portfolio Template - Code & Design",
+    category: "web",
   }  
 ];
 
@@ -52,8 +53,5 @@ export const projectsNav = [
   },
   {
     name: "app",
-  },
-  {
-    name: "design",
   },
 ];
