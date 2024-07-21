@@ -322,10 +322,6 @@ const HoyBank = () => {
                     <ImgLoad value="1.75" className="hoyBank__img" id="L~Lg|h~qaeE1j[j[f6fkjZj[j[ay" src={styleguide2}/> 
                     
                 </div>
-                
-                    
-                
-                
             </div>
         </div>
 
@@ -349,7 +345,7 @@ const HoyBank = () => {
             </div>
         </div>
 
-        <div className="portfolio-section">
+       <div className="portfolio-section">
             <div className="divider-container w-container">  
                 <h2 className="portfolio-title">Dynamic Mockups</h2>
                 <p className="portfolio-description">This is an immersive preview of the project, featuring visuals that demonstrate the functionality of the website's features.</p>

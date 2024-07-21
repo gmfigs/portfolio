@@ -15,6 +15,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Header from './components/header/Header';
 import HoyBank from './components/hoyBank/HoyBank';
 import Siscog from './components/siscog/Siscog';
+import Airbnb from './components/airbnb/Airbnb';
 
 const App = () => {
   const currentPath = window.location.pathname;
@@ -22,13 +23,15 @@ const App = () => {
                             currentPath === '/mrGeek' || 
                             currentPath === '/brainUp' || 
                             currentPath === '/branding' || 
-                            currentPath === '/siscog';
+                            currentPath === '/siscog' ||
+                            currentPath === '/airbnb';
   return (
     <BrowserRouter>
       <main className='main'>
         <Header />
         {isWorkProjectsPage ? (
           <>
+          {currentPath === '/airbnb' && <Airbnb />}
           {currentPath === '/hoyBank' && <HoyBank />}
           {currentPath === '/siscog' && <Siscog />}
           </>

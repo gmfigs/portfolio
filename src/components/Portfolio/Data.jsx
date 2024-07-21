@@ -4,6 +4,7 @@ import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/siscog.png";
 import Work6 from "../../assets/portfolio-template.png";
+import Work7 from "../../assets/work6.png";
 
 export const projectsData = [
   {
@@ -30,7 +31,7 @@ export const projectsData = [
   {
     id: 4,
     image: Work4,
-    url: "https://www.behance.net/gallery/199142247/Brainup-Gamification-in-Education-Figma",
+    url: "https://www.behance.net/gallery/203240723/Brainup-Gamification-in-Education-Figma",
     title: "BrainUp - UX/UI Project",
     category: "app",
   },
@@ -40,7 +41,14 @@ export const projectsData = [
     url: "/branding",
     title: "Portfolio Template - Code & Design",
     category: "web",
-  }  
+  }, 
+  {
+    id: 6,
+    image: Work7,
+    url: "/airbnb",
+    title: "Full Stack - Airbnb clone",
+    category: "web",
+  } 
 ];
 
 // projects
